@@ -17,43 +17,20 @@
       "alternateName": "Saraa Consultancy",
       "url": "https://saraacapital.co.in",
       "logo": "https://saraacapital.co.in/3eca7af3-bd38-46d3-8f42-f030ee028640.jpeg",
-      "image": "https://saraacapital.co.in/3eca7af3-bd38-46d3-8f42-f030ee028640.jpeg",
       "description": "Premier financial advisor for 100Cr+ Corporate Sector, Loans, Insurance, and Wealth SIP across India.",
-      "email": "arup@saraacapital.co.in",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Bilaspur",
         "addressRegion": "Chhattisgarh",
         "addressCountry": "IN"
       },
-      "areaServed": {
-        "@type": "Country",
-        "name": "India"
-      },
-      "telephone": "+918770327118",
-      "priceRange": "$$$",
-      "founder": {
-        "@type": "Person",
-        "name": "Arup Sinha"
-      },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Financial Services",
-        "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Corporate Investment Banking" }},
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business & Personal Loans" }},
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Insurance & Wealth Management" }}
-        ]
-      }
+      "telephone": "+918770327118"
     }
     </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Saraa Capital | Elite Financial Advisor Chhattisgarh & Pan India</title>
-    <meta name="description" content="Saraa Capital: Premier financial advisor for 100Cr+ Corporate Sector, Loans, Insurance, and Wealth SIP. Serving Bilaspur, Raipur, and every city across India.">
-    <meta name="keywords" content="Financial Consultant India, Corporate Finance 100Cr, Loan Provider India, Wealth Management Chhattisgarh, GST Filing Online India, Business Loans Pan India">
 
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -90,14 +67,10 @@
         .logo { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 900; color: #fff; text-decoration: none; letter-spacing: -1px; }
         .logo span { color: var(--accent-gold); text-shadow: 0 0 10px rgba(212, 175, 55, 0.5); }
         .header-links a { margin-left: 25px; color: #fff; text-decoration: none; font-size: 0.8rem; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; transition: 0.3s; }
-        .header-links a:hover { color: var(--accent-gold); text-shadow: 0 0 8px var(--accent-gold); }
+        .header-links a:hover { color: var(--accent-gold); }
 
-        .elite-hero {
-            background: linear-gradient(to bottom, #000000, #050505);
-            padding: 4rem 5%; text-align: center; border-bottom: 2px solid var(--accent-gold);
-            position: relative;
-        }
-        .elite-hero h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; color: #fff; margin-bottom: 0.8rem; letter-spacing: -1px; }
+        .elite-hero { padding: 6rem 5%; text-align: center; border-bottom: 2px solid var(--accent-gold); position: relative; }
+        .elite-hero h1 { font-family: 'Playfair Display', serif; font-size: 3rem; color: #fff; margin-bottom: 0.8rem; letter-spacing: -1px; }
         .elite-btn {
             background: linear-gradient(135deg, #D4AF37 0%, #947231 100%);
             color: #000; padding: 14px 35px; border: none; font-weight: 900; text-transform: uppercase;
@@ -106,57 +79,64 @@
         .elite-btn:hover { transform: scale(1.05); box-shadow: 0 0 40px rgba(212, 175, 55, 0.5); }
 
         section { padding: 6rem 5%; max-width: 1440px; margin: 0 auto; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 3rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; }
 
         .card {
             background: linear-gradient(145deg, #0a0a0a, #000000);
             padding: 3.5rem 2.5rem;
             border: 1px solid var(--glass-border);
             transition: 0.6s cubic-bezier(0.16, 1, 0.3, 1); cursor: pointer;
-            position: relative;
         }
         .card:hover {
             border-color: var(--accent-gold);
             background: #0d0d0d;
-            transform: translateY(-15px);
-            box-shadow: 0 25px 50px rgba(0,0,0,0.8), 0 0 15px rgba(212, 175, 55, 0.2);
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.8);
         }
-        .card i { font-size: 2.5rem; color: var(--accent-gold); margin-bottom: 1.5rem; display: block; filter: drop-shadow(0 0 5px var(--accent-gold)); }
+        .card i { font-size: 2.5rem; color: var(--accent-gold); margin-bottom: 1.5rem; display: block; }
         .card h3 { font-family: 'Playfair Display', serif; font-size: 1.8rem; margin-bottom: 1.2rem; color: #fff; }
-        .card ul { list-style: none; font-size: 0.95rem; color: #aaa; }
+        .card ul { list-style: none; padding: 0; font-size: 0.95rem; color: #aaa; }
         .card ul li { margin-bottom: 12px; padding-left: 25px; position: relative; }
-        .card ul li::before { content: "✧"; position: absolute; left: 0; color: var(--accent-gold); font-weight: 900; }
+        .card ul li::before { content: "✧"; position: absolute; left: 0; color: var(--accent-gold); }
 
         .calc-section { background: #020202; padding: 8rem 5%; border-top: 1px solid var(--glass-border); }
-        .calc-box { background: #000; padding: 4rem; border: 1px solid var(--glass-border); position: relative; }
-        .calc-box::before { content: ""; position: absolute; top: -1px; left: 50%; transform: translateX(-50%); width: 40px; height: 3px; background: var(--accent-gold); }
-        .calc-box h3 { font-family: 'Playfair Display'; color: #fff; font-size: 2rem; text-align: center; margin-bottom: 30px; letter-spacing: 1px; }
-
+        .calc-box { background: #000; padding: 3rem; border: 1px solid var(--glass-border); position: relative; border-top: 3px solid var(--accent-gold); }
         .switch-container { display: flex; justify-content: center; gap: 10px; margin-bottom: 30px; }
         .switch-btn {
             background: transparent; border: 1px solid var(--glass-border); color: #777;
-            padding: 8px 20px; cursor: pointer; font-weight: 800; font-size: 0.7rem;
-            letter-spacing: 2px; text-transform: uppercase; transition: 0.3s;
+            padding: 8px 20px; cursor: pointer; font-weight: 800; font-size: 0.7rem; text-transform: uppercase;
         }
-        .switch-btn.active { background: var(--accent-gold); color: #000; border-color: var(--accent-gold); }
+        .switch-btn.active { background: var(--accent-gold); color: #000; }
 
-        .input-group label { color: var(--accent-gold); font-size: 0.75rem; letter-spacing: 2px; font-weight: 900; text-transform: uppercase; }
-        .input-group input, .input-group textarea { width: 100%; background: transparent; border: none; border-bottom: 1px solid #333; color: #fff; padding: 12px 0; font-size: 1.2rem; margin-bottom: 25px; outline: none; font-family: 'Inter'; }
-        .input-group input:focus, .input-group textarea:focus { border-bottom-color: var(--accent-gold); }
-        .res-box { background: linear-gradient(to right, #D4AF37, #947231); color: #000; padding: 30px; text-align: center; font-weight: 900; }
+        .input-group label { color: var(--accent-gold); font-size: 0.75rem; letter-spacing: 2px; font-weight: 900; text-transform: uppercase; display: block; margin-bottom: 8px; }
+        .input-group input, .input-group select, .input-group textarea {
+            width: 100%; background: transparent; border: none; border-bottom: 1px solid #333; color: #fff;
+            padding: 12px 0; font-size: 1.1rem; margin-bottom: 25px; outline: none; font-family: 'Inter';
+        }
 
-        .proof-box { flex: 1; background: #000; color: white; padding: 5rem; text-align: center; border: 1px solid var(--glass-border); cursor: pointer; transition: 0.5s; }
-        .proof-box:hover { border-color: var(--accent-gold); background: #050505; }
+        .input-group select option {
+            background-color: #050505;
+            color: #fff;
+        }
 
-        .founder { display: flex; align-items: center; justify-content: center; gap: 6rem; padding: 10rem 5%; flex-wrap: wrap; background: #000; }
-        .founder-img { width: 320px; height: 320px; object-fit: cover; border: 2px solid var(--accent-gold); padding: 12px; box-shadow: 0 0 30px rgba(212, 175, 55, 0.2); }
+        .input-group input:focus { border-bottom-color: var(--accent-gold); }
+        .res-box { background: linear-gradient(to right, #D4AF37, #947231); color: #000; padding: 25px; text-align: center; font-weight: 900; }
 
-        footer { background: #000; padding: 6rem 5%; text-align: center; border-top: 1px solid var(--glass-border); }
-        .footer-socials a { color: var(--accent-gold); margin: 0 25px; text-decoration: none; font-weight: 800; font-size: 0.9rem; letter-spacing: 2px; }
+        .proof-box { flex: 1; background: #000; color: white; padding: 4rem; text-align: center; border: 1px solid var(--glass-border); cursor: pointer; transition: 0.5s; }
+        .proof-box:hover { border-color: var(--accent-gold); }
 
-        .modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.98); backdrop-filter: blur(25px); display: none; justify-content: center; align-items: center; z-index: 2000; }
-        .modal-inner { background: #050505; padding: 5rem; width: 95%; max-width: 550px; border: 1px solid var(--accent-gold); position: relative; color: #fff; box-shadow: 0 0 50px rgba(212, 175, 55, 0.2); overflow-y: auto; max-height: 90vh; }
-        .wa-btn { background: var(--accent-gold); color: #000; width: 100%; padding: 1.5rem; border: none; font-weight: 900; cursor: pointer; margin-top: 30px; letter-spacing: 2px; }
+        .founder { display: flex; align-items: center; justify-content: center; gap: 4rem; padding: 8rem 5%; flex-wrap: wrap; background: #000; }
+        .founder-img { width: 300px; height: 300px; object-fit: cover; border: 2px solid var(--accent-gold); padding: 10px; }
+
+        footer { background: #000; padding: 4rem 5%; text-align: center; border-top: 1px solid var(--glass-border); }
+        .compliance-bar { background: #050505; padding: 25px; font-size: 0.75rem; color: #777; border: 1px solid #111; margin: 2rem 0; line-height: 1.8; text-align: center; }
+        .compliance-bar strong { color: var(--accent-gold); }
+
+        .modal { position: fixed; inset: 0; background: rgba(0,0,0,0.98); backdrop-filter: blur(20px); display: none; justify-content: center; align-items: center; z-index: 2000; }
+        .modal-inner { background: #050505; padding: 3rem; width: 95%; max-width: 550px; border: 1px solid var(--accent-gold); position: relative; color: #fff; overflow-y: auto; max-height: 90vh; }
+        .consent-wrapper { display: flex; align-items: flex-start; gap: 12px; margin-top: 15px; font-size: 0.75rem; color: #888; text-align: left; line-height: 1.4; }
+        .consent-wrapper input { margin-top: 3px; accent-color: var(--accent-gold); width: auto; }
+        .wa-btn { background: var(--accent-gold); color: #000; width: 100%; padding: 1.2rem; border: none; font-weight: 900; cursor: pointer; margin-top: 25px; letter-spacing: 2px; }
     </style>
 </head>
 <body>
@@ -177,16 +157,16 @@
         </p>
     </div>
     <h1>Corporate Investment Banking</h1>
-    <p style="opacity: 0.5; max-width: 650px; margin: 0 auto; font-size: 1rem; font-weight: 300;">Strategic capital infusion exclusively for industrial leaders exceeding the 100Cr threshold.</p>
+    <p style="opacity: 0.5; max-width: 650px; margin: 0 auto;">Strategic capital infusion exclusively for industrial leaders exceeding the 100Cr threshold.</p>
     <button class="elite-btn" onclick="openModal('Elite Corporate Investment')" style="margin-top:30px;">Private Consultation</button>
 </div>
 
-<section>
+<section id="services">
     <div class="grid">
         <div class="card" onclick="openModal('Insurance Sector')">
             <i class="fas fa-shield-halved"></i>
             <h3>Insurance</h3>
-            <ul><li>Life & Term Insurance</li><li>Health & Medical Plans</li><li>Motor & Car Insurance</li><li>Business & Fire Insurance</li><li>Warehouse & Factory Cover</li><li>Marine & Cargo</li></ul>
+            <ul><li>Life & Term Insurance</li><li>Health & Medical Plans</li><li>Motor & Car Insurance</li><li>Business & Fire Insurance</li><li>Warehouse & Marine</li></ul>
         </div>
         <div class="card" onclick="openModal('Wealth & SIP')">
             <i class="fas fa-gem"></i>
@@ -196,15 +176,13 @@
         <div class="card" onclick="openModal('Loans & Funding')">
             <i class="fas fa-vault"></i>
             <h3>Loans & Funding</h3>
-            <ul><li>Personal & Business Loan</li><li>Education Loan</li><li>Car Finance & Refinance</li><li>Loan Against Property</li><li>Mudra & PMEGP Funding</li><li>CC / Overdraft Facilities</li></ul>
+            <ul><li>Personal & Business Loan</li><li>Education & Gold Loan</li><li>Credit Cards & Home Loan</li><li>Mudra & PMEGP Funding</li></ul>
         </div>
-
         <div class="card" onclick="openModal('Tax & PAN')">
             <i class="fas fa-file-contract"></i>
             <h3>Tax & PAN</h3>
-            <ul><li>ITR Filing</li><li>GST Registration</li><li>GST Surrender & Filing</li><li>DSC Digital Signature</li><li>PAN New / Correction</li><li>Company Audit Support</li></ul>
+            <ul><li>ITR & GST Filing</li><li>GST Registration</li><li>DSC Digital Signature</li><li>Company Audit Support</li></ul>
         </div>
-
         <div class="card" onclick="openModal('Travel Hub')">
             <i class="fas fa-compass"></i>
             <h3>Travel Hub</h3>
@@ -241,19 +219,16 @@
                 <button class="switch-btn active" id="btnSip" onclick="setCalcMode('SIP')">SIP Mode</button>
                 <button class="switch-btn" id="btnSwp" onclick="setCalcMode('SWP')">SWP Mode</button>
             </div>
-
             <div class="input-group">
                 <label id="label1">Monthly SIP (₹)</label>
                 <input type="number" id="s1" value="5000" oninput="runCalc()">
             </div>
-
             <div id="swpExtra" style="display:none;">
                 <div class="input-group">
                     <label>Monthly Withdrawal (₹)</label>
                     <input type="number" id="sW" value="2000" oninput="runCalc()">
                 </div>
             </div>
-
             <div class="input-group">
                 <label>Expected Return (%)</label>
                 <input type="number" id="s2" value="12" oninput="runCalc()">
@@ -262,72 +237,84 @@
                 <label>Years</label>
                 <input type="number" id="s3" value="10" oninput="runCalc()">
             </div>
-            <div class="res-box"><span id="resLabel">Estimated Corpus</span> <span id="rSIP" style="display:block; font-size:2.2rem; font-family:'Playfair Display';">₹ 11,61,695</span></div>
+            <div class="res-box"><span id="resLabel">Estimated Corpus</span> <span id="rSIP" style="display:block; font-size:2rem;">₹ 11,61,695</span></div>
         </div>
+
         <div class="calc-box">
             <h3>EMI Estimator</h3>
             <div class="input-group"><label>Loan Amount (₹)</label><input type="number" id="l1" value="500000" oninput="runCalc()"></div>
             <div class="input-group"><label>Interest (%)</label><input type="number" id="l2" value="10.5" oninput="runCalc()"></div>
             <div class="input-group"><label>Tenure (Years)</label><input type="number" id="l3" value="5" oninput="runCalc()"></div>
-            <div class="res-box">Monthly EMI <span id="rEMI" style="display:block; font-size:2.2rem; font-family:'Playfair Display';">₹ 10,747</span></div>
+            <div class="res-box">Monthly EMI <span id="rEMI" style="display:block; font-size:2rem;">₹ 10,747</span></div>
         </div>
     </div>
 </div>
 
 <div style="display:flex; flex-wrap:wrap; border-top:1px solid var(--glass-border);">
-    <div class="proof-box" onclick="goToGoogleReviews()">
+    <div class="proof-box" onclick="window.open('https://share.google/GqFmJ4L0UVGvK5eIt', '_blank')">
         <p style="color:var(--accent-gold); font-size:0.8rem; letter-spacing:4px; font-weight:800;">VERIFIED EXCELLENCE</p>
-        <h2 style="font-family:'Playfair Display'; font-size: 2.5rem; margin: 15px 0;">Google Reviews</h2>
-        <div style="color:var(--accent-gold); font-size:1.5rem; margin-bottom:20px;">★★★★★</div>
-        <p style="opacity:0.5; font-size:0.9rem;">View our 5-star professional track record.</p>
+        <h2 style="font-family:'Playfair Display'; margin: 15px 0;">Google Reviews</h2>
+        <div style="color:var(--accent-gold); font-size:1.5rem; margin-bottom:10px;">★★★★★</div>
     </div>
     <div class="proof-box" style="background:#020202;">
-        <h2 style="font-family:'Playfair Display'; font-size: 2.5rem;">Referral Network</h2>
-        <button class="elite-btn" style="padding:15px 35px; font-size:0.8rem; margin-top:25px;" onclick="openModal('Referral Program')">Partner Now</button>
+        <h2 style="font-family:'Playfair Display';">Referral Network</h2>
+        <button class="elite-btn" style="font-size:0.8rem; margin-top:20px;" onclick="openModal('Referral Program')">Partner Now</button>
     </div>
 </div>
 
 <div class="founder">
     <img src="3eca7af3-bd38-46d3-8f42-f030ee028640.jpeg" alt="Arup Sinha" class="founder-img">
     <div style="max-width:450px;">
-        <h2 style="font-family:'Playfair Display'; font-size: 3.5rem; color:#fff; letter-spacing:-1px;">Arup Sinha</h2>
-        <p style="color:var(--accent-gold); font-weight:900; letter-spacing:5px; text-transform:uppercase; margin-bottom:20px;">Founder</p>
-        <p style="color:#777; font-weight:300; line-height:2;">Building a legacy of financial clarity in Chhattisgarh. With a foundation of three years in insurance advisory and two years in the corporate sector, I established Saraa Capital to provide honest, experience-backed capital strategies. I am dedicated to bringing professional financial solutions to individuals and emerging businesses across India.</p>
+        <h2 style="font-family:'Playfair Display'; font-size: 3rem; color:#fff;">Arup Sinha</h2>
+        <p style="color:var(--accent-gold); font-weight:900; letter-spacing:5px;">FOUNDER</p>
+        <p style="color:#777; font-weight:300;">Building a legacy of financial clarity in Chhattisgarh. With specialized foundations in insurance and corporate advisory, I established Saraa Capital to provide experience-backed capital strategies across India.</p>
     </div>
 </div>
 
 <footer>
-    <p style="font-family:'Playfair Display'; font-size: 2.5rem; color:#fff; letter-spacing:-1px;">SARAA <span>CAPITAL</span></p>
-    <div class="footer-socials" style="margin: 35px 0;">
-        <a href="mailto:arup@saraacapital.co.in">EMAIL</a>
-        <a href="https://instagram.com/Saraacapital">INSTAGRAM</a>
-        <a href="tel:+918770327118">WHATSAPP</a>
+    <div class="logo">SARAA <span>CAPITAL</span></div>
+
+    <div class="compliance-bar">
+        <strong>Insurance POSP:</strong> Choice Broking (CBA1833294) | PBPartners (IP64078) | Turtlemint (DP 2186174)<br>
+        <strong>Loan Partners:</strong> Andromeda & Urban Money DSA | <strong>Travel Partners:</strong> TravClan & Bontan Elite Network<br>
+        <strong>Licensing:</strong> Hoogamatic & Income Karo Partner
     </div>
-    <p style="opacity:0.2; font-size:0.75rem; letter-spacing:3px;">© 2026 PREMIER FINANCIAL SOLUTIONS PAN INDIA</p>
+
+    <div style="margin: 30px 0;">
+        <a href="mailto:arup@saraacapital.co.in" style="color:var(--accent-gold); margin:0 15px; text-decoration:none;">EMAIL</a>
+        <a href="https://instagram.com/Saraacapital" style="color:var(--accent-gold); margin:0 15px; text-decoration:none;">INSTAGRAM</a>
+    </div>
+    <p style="opacity:0.2; font-size:0.7rem; letter-spacing:3px;">© 2026 PREMIER FINANCIAL SOLUTIONS PAN INDIA</p>
 </footer>
 
 <div class="modal" id="pop">
     <div class="modal-inner">
-        <span onclick="closeModal()" style="position:absolute; top:30px; right:30px; cursor:pointer; font-size:2.5rem;">&times;</span>
-        <h2 id="mTitle" style="font-family:'Playfair Display'; font-size:2.5rem;">Private Inquiry</h2>
-        <p id="mSub" style="color:var(--accent-gold); font-weight:900; letter-spacing:3px; text-transform:uppercase; font-size:0.8rem; margin-bottom:40px;"></p>
+        <span onclick="closeModal()" style="position:absolute; top:25px; right:25px; cursor:pointer; font-size:2rem;">&times;</span>
+        <h2 id="mTitle" style="font-family:'Playfair Display'; font-size:2.2rem;">Private Inquiry</h2>
+        <p id="mSub" style="color:var(--accent-gold); font-weight:900; letter-spacing:2px; font-size:0.75rem; margin-bottom:30px;"></p>
 
         <div id="standardFields">
-            <div class="input-group"><label>Service Interest</label><select id="subSelect" style="width:100%; padding:18px; background:#000; color:#fff; border:1px solid var(--glass-border); margin-top:12px; outline:none; font-family: 'Inter';"></select></div>
-            <div class="input-group" style="margin-top:25px;"><label>Client Full Name</label><input type="text" id="uName" placeholder="Enter Name"></div>
+            <div class="input-group">
+                <label>Specific Service</label>
+                <select id="subSelect"></select>
+            </div>
+            <div class="input-group"><label>Client Full Name</label><input type="text" id="uName" placeholder="Enter Name"></div>
+            <div class="input-group"><label>Mobile Number</label><input type="tel" id="uPhone" placeholder="Enter Contact Number"></div>
         </div>
 
         <div id="referralFields" style="display:none;">
-            <p style="color:var(--accent-gold); font-size:0.7rem; letter-spacing:2px; margin-bottom:15px;">PARTNER DETAILS</p>
-            <div class="input-group"><label>Your Name</label><input type="text" id="pName" placeholder="Partner Name"></div>
-            <div class="input-group"><label>Your Phone</label><input type="tel" id="pPhone" placeholder="Partner Phone"></div>
-            <div class="input-group"><label>Your Email</label><input type="email" id="pEmail" placeholder="Partner Email"></div>
+            <p style="color:var(--accent-gold); font-size:0.7rem; font-weight:800; margin-bottom:15px;">PARTNER DETAILS</p>
+            <div class="input-group"><label>Partner Name</label><input type="text" id="pName" placeholder="Your Name"></div>
+            <div class="input-group"><label>Partner Phone</label><input type="tel" id="pPhone" placeholder="Your Phone"></div>
 
-            <p style="color:var(--accent-gold); font-size:0.7rem; letter-spacing:2px; margin:20px 0 15px 0;">CLIENT/LEAD DETAILS</p>
-            <div class="input-group"><label>Client Name</label><input type="text" id="cLeadName" placeholder="Enter Name"></div>
-            <div class="input-group"><label>Client Age</label><input type="number" id="cLeadAge" placeholder="Enter Age"></div>
-            <div class="input-group"><label>Client Phone</label><input type="tel" id="cLeadPhone" placeholder="Enter Phone"></div>
-            <div class="input-group"><label>Service Required</label><textarea id="cService" rows="2" placeholder="Describe the service needed..."></textarea></div>
+            <p style="color:var(--accent-gold); font-size:0.7rem; font-weight:800; margin:20px 0 15px 0;">CLIENT/LEAD DETAILS</p>
+            <div class="input-group"><label>Client Name</label><input type="text" id="cLeadName" placeholder="Lead Name"></div>
+            <div class="input-group"><label>Service Required</label><textarea id="cService" rows="2" placeholder="Describe the funding/service needed..."></textarea></div>
+        </div>
+
+        <div class="consent-wrapper">
+            <input type="checkbox" id="consentCheck">
+            <label for="consentCheck">I authorize Saraa Capital and its representatives to contact me via Call, SMS, or WhatsApp regarding this inquiry. This overrides any DNC/DND registration.</label>
         </div>
 
         <button class="wa-btn" onclick="sendWA()">BEGIN CONSULTATION</button>
@@ -335,21 +322,90 @@
 </div>
 
 <script>
-    const myGoogleBusinessLink = "https://share.google/GqFmJ4L0UVGvK5eIt";
-    function goToGoogleReviews() { window.open(myGoogleBusinessLink, '_blank'); }
-
     const subData = {
-        "Insurance Sector": ["Life & Term Insurance", "Health & Medical", "Motor & Car", "Business & Fire", "Warehouse & Factory", "Marine & Cargo", "Travel Insurance"],
-        "Wealth & SIP": ["Mutual Fund SIP", "SWP Monthly Income", "Demat Opening", "Corporate Bonds/FD"],
-        "Loans & Funding": ["Personal Loan", "Business Loan", "Education Loan", "Home Loan", "Loan Against Property", "Mudra/PMEGP", "Industrial Loans", "CC/Overdraft"],
-        "Tax & PAN": ["ITR Filing", "GST Registration", "GST Surrender & Filing", "DSC Digital Signature", "PAN New / Correction", "Company Audit Support"],
-        "Travel Hub": ["Flight Booking", "Bus Ticket", "Visa Filing", "Holiday Package"],
-        "Real Estate": ["Residential Plots", "Industrial Units", "Rentals", "Commercial Spaces"],
-        "Registrations": ["Pvt Ltd", "LLP Setup", "NGO/Trust", "Import Export Code", "Startup India"],
-        "Licenses": ["FSSAI Food License", "Trademark/ISO", "Shop Act", "Branding"],
-        "Project Reports": ["Mudra Project", "PMEGP CMA", "Business Proposal", "Bank Audit"],
-        "Elite Corporate Investment": ["100Cr+ Portfolio Management", "Turnover Growth Strategy"],
-        "Referral Program": ["Partner Lead Submission"]
+        "Insurance Sector": [
+            "Life & Term Insurance",
+            "Health & Medical",
+            "Motor & Car",
+            "Business & Fire",
+            "Warehouse & Marine",
+            "Cargo & Transit Insurance"
+        ],
+        "Wealth & SIP": [
+            "Mutual Fund SIP",
+            "SWP Monthly Income",
+            "Demat Account Opening",
+            "Corporate Bonds/FD",
+            "Portfolio Management"
+        ],
+        "Loans & Funding": [
+            "Personal Loan",
+            "Business Loan",
+            "Home Loan",
+            "Education Loan",
+            "Gold Loan",
+            "Credit Card Application",
+            "Loan Against Property (LAP)",
+            "Mudra & PMEGP Funding",
+            "CC / Overdraft Facilities",
+            "Car Finance & Refinance"
+        ],
+        "Tax & PAN": [
+            "ITR Filing",
+            "GST Registration",
+            "GST Surrender & Filing",
+            "DSC Digital Signature",
+            "PAN New / Correction",
+            "Company Audit Support"
+        ],
+        "Travel Hub": [
+            "Domestic Flight Booking",
+            "International Flight Booking",
+            "Holiday Tour Packages",
+            "Bus Ticket Booking",
+            "Visa Documentation",
+            "Hotel & Stay Arrangements"
+        ],
+        "Real Estate": [
+            "Bilaspur Residential Plots",
+            "Raipur Residential Plots",
+            "Nagpur Industrial Units",
+            "Property Rentals",
+            "Commercial Spaces",
+            "Agriculture Land Deals"
+        ],
+        "Registrations": [
+            "Pvt Ltd Company Setup",
+            "LLP Registration",
+            "NGO & Trust Setup",
+            "Import Export Code (IEC)",
+            "Startup India Registration",
+            "Udyam/MSME Registration"
+        ],
+        "Licenses": [
+            "FSSAI Food License",
+            "Trademark Registration",
+            "ISO Certification",
+            "Shop Act / Gumastha",
+            "Trade License",
+            "Business Branding Services"
+        ],
+        "Project Reports": [
+            "Mudra Project PDF",
+            "PMEGP CMA Reports",
+            "Detailed Business Proposals",
+            "Bank Audit Support",
+            "Subsidy Project Reports"
+        ],
+        "Elite Corporate Investment": [
+            "100Cr+ Strategic Funding",
+            "Corporate Capital Infusion",
+            "Industrial Investment Banking",
+            "Turnover Growth Strategy"
+        ],
+        "Referral Program": [
+            "Partner Lead Submission"
+        ]
     };
 
     let currentMode = 'SIP';
@@ -358,24 +414,18 @@
         currentMode = mode;
         document.getElementById('btnSip').classList.toggle('active', mode === 'SIP');
         document.getElementById('btnSwp').classList.toggle('active', mode === 'SWP');
-
         const extra = document.getElementById('swpExtra');
         const label1 = document.getElementById('label1');
         const resLabel = document.getElementById('resLabel');
-        const wealthTitle = document.getElementById('wealthTitle');
 
         if(mode === 'SIP') {
-            wealthTitle.innerText = "Wealth Planner";
             label1.innerText = "Monthly SIP (₹)";
             resLabel.innerText = "Estimated Corpus";
             extra.style.display = 'none';
-            document.getElementById('s1').value = "5000";
         } else {
-            wealthTitle.innerText = "Income Planner (SWP)";
             label1.innerText = "Total Investment (₹)";
             resLabel.innerText = "Remaining Balance";
             extra.style.display = 'block';
-            document.getElementById('s1').value = "1000000";
         }
         runCalc();
     }
@@ -394,7 +444,6 @@
             const withdrawal = parseFloat(document.getElementById('sW').value) || 0;
             finalVal = initial * Math.pow(1+r, n) - withdrawal * [(Math.pow(1+r, n)-1)/r];
         }
-
         document.getElementById('rSIP').innerText = "₹ " + Math.round(Math.max(0, finalVal)).toLocaleString('en-IN');
 
         const lp = parseFloat(document.getElementById('l1').value) || 0;
@@ -410,32 +459,47 @@
         const standard = document.getElementById('standardFields');
         const referral = document.getElementById('referralFields');
         const sel = document.getElementById('subSelect');
+
         sel.innerHTML = "";
-        subData[cat].forEach(i => { let o = document.createElement('option'); o.value=i; o.innerText=i; sel.appendChild(o); });
-        if(cat === 'Referral Program') { standard.style.display = 'none'; referral.style.display = 'block'; }
-        else { standard.style.display = 'block'; referral.style.display = 'none'; }
+        if (subData[cat]) {
+            subData[cat].forEach(i => {
+                let o = document.createElement('option');
+                o.value=i;
+                o.innerText=i;
+                sel.appendChild(o);
+            });
+        }
+
+        if(cat === 'Referral Program') {
+            standard.style.display = 'none';
+            referral.style.display = 'block';
+        } else {
+            standard.style.display = 'block';
+            referral.style.display = 'none';
+        }
     }
 
     function closeModal() { document.getElementById('pop').style.display = 'none'; }
 
     function sendWA() {
         const category = document.getElementById('mSub').innerText;
+        const consent = document.getElementById('consentCheck').checked;
+        if(!consent) return alert("Please authorize contact to proceed.");
+
         let message = "";
         if(category === 'Referral Program') {
             const pN = document.getElementById('pName').value;
             const pP = document.getElementById('pPhone').value;
-            const pE = document.getElementById('pEmail').value;
             const cL = document.getElementById('cLeadName').value;
-            const cA = document.getElementById('cLeadAge').value;
-            const cPh = document.getElementById('cLeadPhone').value;
             const cS = document.getElementById('cService').value;
-            if(!pN || !pP || !cL || !cPh) return alert("All essential fields (Partner Contact and Client Contact) are required.");
-            message = `Referral Submission:%0A%0A[Partner Details]%0AName: ${pN}%0APhone: ${pP}%0AEmail: ${pE}%0A%0A[Client Details]%0AName: ${cL}%0AAge: ${cA}%0APhone: ${cPh}%0AService: ${cS}`;
+            if(!pN || !pP || !cL) return alert("Partner and Lead names are required.");
+            message = `Referral Submission%0A%0A[Partner]: ${pN} (${pP})%0A[Client]: ${cL}%0A[Service]: ${cS}%0AConsent: Yes`;
         } else {
             const uN = document.getElementById('uName').value;
+            const uPh = document.getElementById('uPhone').value;
             const sV = document.getElementById('subSelect').value;
-            if(!uN) return alert("Identification Required");
-            message = `Consultation Request: ${uN}.%0APriority Interest: ${sV}%0ACategory: ${category}.`;
+            if(!uN || !uPh) return alert("Contact details required.");
+            message = `Inquiry: ${uN}%0APhone: ${uPh}%0AService: ${sV}%0ACategory: ${category}%0AConsent: Yes`;
         }
         window.open(`https://wa.me/918770327118?text=${message}`, '_blank');
     }
